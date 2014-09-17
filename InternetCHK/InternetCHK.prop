@@ -1,9 +1,16 @@
 {
+"cron" : {
+    "InternetCHK" :   { 
+      "name"       : "InternetCHK",
+      "description": "",
+      "time"       : "0 */5 * * * *"
+    }
+  },
+
   "modules" : { 
     "InternetCHK"  : {
       "description": "Vérifie la connexion Internet",
-      "version"    : "1.0"
-	   
+      "version"    : "1.0"  
     }
   }
 }
