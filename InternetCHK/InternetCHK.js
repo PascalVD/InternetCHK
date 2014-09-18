@@ -6,7 +6,7 @@ exports.action = function(data, callback, config, SARAH)
         var url = 'http://www.google.fr/';
  
   var fs   = require('fs');
-	fs.exists('./plugins/InternetCHK/stat.txt"', function (exists) {
+	fs.exists('./plugins/InternetCHK/stat.txt', function (exists) {
 	var Statt = fs.createWriteStream('./plugins/InternetCHK/stat.txt');
 	Statt.end();
 	});
@@ -49,7 +49,7 @@ exports.cron = function(callback, task, SARAH)
   var url = 'http://www.google.fr/';
  
   var fs   = require('fs');
-	fs.exists('./plugins/InternetCHK/stat.txt"', function (exists) {
+	fs.exists('./plugins/InternetCHK/stat.txt', function (exists) {
 		var Statt = fs.createWriteStream('./plugins/InternetCHK/stat.txt');
 		Statt.end();
 	});
