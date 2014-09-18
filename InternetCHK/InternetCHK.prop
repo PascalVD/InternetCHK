@@ -10,7 +10,7 @@
   "modules" : { 
     "InternetCHK"  : {
       "description": "Vérifie la connexion Internet",
-      "version"    : "1.0"  
+      "version"    : "1.1"  
     }
   }
 }
